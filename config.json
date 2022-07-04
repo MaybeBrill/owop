@@ -1,0 +1,43 @@
+{
+	"adminlogin": ".",
+	"modlogin": ".",
+	"maxConnectionsPerIp": 6,
+	"maxConnections": 9007199254740991,
+    "AntiBot": false,
+    "AntiBanBypass": true,
+    "CountryBan": true,
+	"antiProxy": {
+		"status": true,
+		"key": ".",
+		"vpnCheck": true,
+		"limit": 1000
+	},
+	"port": 9001,
+	"maxNickLength": 16,
+	"messages": {
+		"unbanMessage": "If you were banned falsely, dm maybe brill#4252",
+		"closeMsg": "Server is restarting...",
+		"defaultBanReason": "No reason"
+	},
+	"bucket": {
+		"pixel": {
+			"none": [0, 1],
+			"user": [100, 2],
+			"mod": [160, 1],
+			"admin": [1, 0]
+		},
+		"chat": {
+			"none": [4, 6],
+			"user": [4, 6],
+			"mod": [32, 0],
+			"admin": [32, 0]
+		}
+	},
+	"captcha": {
+        "enabled": true,
+		"security": 2,
+		"serverKey": ".",
+		"clientSideVerificationKey": "CaptchA",
+		"bypassCode": "."
+	}
+}
